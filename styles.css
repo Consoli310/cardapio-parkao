@@ -125,30 +125,6 @@ input[type="radio"] {
   color: #2C3E50;
   font-size: 23px;
   margin-top: 30px;
-  box-shadow: 0 4px 8px rgba(44, 62, 80, 0.1);
-  
-}
-
-.textoGerado .titulo-salgados,
-.textoGerado .titulo-doces,
-.textoGerado .titulo-bolo {
-  font-size: 28px;
-  font-weight: 700;
-  margin-top: 25px;
-  margin-bottom: 12px;
-  border-bottom: 3px solid #4CAF50;
-  padding-bottom: 6px;
-  text-transform: uppercase;
-  height: 100%;
-}
-
-.textoGerado .item-pedido {
-  margin-left: 20px;
-  margin-bottom: 8px;
-  font-weight: 600;
-}
-
-.textoGerado .item-pedido strong {
-  color: #4CAF50;
+  box-shadow: 0 4px 8px rgba(44, 62, 80, 0.1); 
 }
 
