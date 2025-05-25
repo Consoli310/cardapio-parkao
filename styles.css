@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #E8F0FE;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 750px;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.salgados {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    color: #2C3E50;
+    font-size: 35px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    padding: 5px;
+    width: 60px;
+    height: 30px;
+    font-size: medium;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+}
+
+
+.titleSalgados {
+    font-size: 35px;
+    padding-top: 100px;
+    
+}
+
+.titleDoces {
+    font-size: 35px;
+    padding-top: 100px;
+    
+}
+
+.titleBolo {
+    font-size: 35px;
+    padding-top: 100px;
+   
+}
+
+.doces {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    margin: auto;
+}
+
+.bolos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    margin: auto;
+    height: 500px;
+}
+
+.button {
+  background-color: #4CAF50; /* verde */
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45a049; /* verde mais escuro no hover */
+}
+
+.textoGerado {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  border: 2px solid #2C3E50;
+  border-radius: 8px;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2C3E50;
+  font-size: 23px;
+  margin-top: 30px;
+  box-shadow: 0 4px 8px rgba(44, 62, 80, 0.1);
+  
+}
+
+.textoGerado .titulo-salgados,
+.textoGerado .titulo-doces,
+.textoGerado .titulo-bolo {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: 12px;
+  border-bottom: 3px solid #4CAF50;
+  padding-bottom: 6px;
+  text-transform: uppercase;
+  height: 100%;
+}
+
+.textoGerado .item-pedido {
+  margin-left: 20px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.textoGerado .item-pedido strong {
+  color: #4CAF50;
+}
+
