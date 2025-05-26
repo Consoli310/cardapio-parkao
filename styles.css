@@ -50,9 +50,9 @@ label {
 
 input[type="number"] {
     padding: 5px;
-    width: 60px;
-    height: 30px;
-    font-size: medium;
+    width: 100px;
+    height: 40px;
+    font-size: 30px;
 }
 
 input[type="radio"] {
