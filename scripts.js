@@ -44,14 +44,14 @@ document.querySelector('form.list').addEventListener('submit', function(event) {
   if (Object.keys(salgados).length > 0) {
     texto += '<strong>Salgados:</strong><br>';
     for (const [nome, qtd] of Object.entries(salgados)) {
-      texto += `- ${nome}: ${qtd} unidades<br>`;
+      texto += `- ${nome}: ${qtd} <br>`;
     }
   }
 
   if (Object.keys(doces).length > 0) {
     texto += '<strong>Doces:</strong><br>';
     for (const [nome, qtd] of Object.entries(doces)) {
-      texto += `- ${nome}: ${qtd} unidades<br>`;
+      texto += `- ${nome}: ${qtd} <br>`;
     }
   }
 
